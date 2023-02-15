@@ -1,0 +1,7 @@
+---
+- name: vault
+  hosts: localhost
+  become: yes
+  roles: 
+    - requirements
+    - vault

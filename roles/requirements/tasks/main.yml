@@ -1,0 +1,13 @@
+---
+- name: gpg
+  apt:
+    name: gpg
+
+- name: Wget
+  apt:
+    name: wget
+
+- name: lsb-release
+  apt:
+    name: lsb-release
+
